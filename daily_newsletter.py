@@ -48,7 +48,7 @@ FEEDS = {
 
 MAX_ITEMS_PER_FEED = 8          # how many items to pull from each feed
 LOOKBACK_HOURS = 30             # only include items published within this window
-MODEL = "anthropic/claude-sonnet-4.6"   # OpenRouter model slug used to write the newsletter
+MODEL = "openrouter/free"   # OpenRouter model slug used to write the newsletter
 
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 GMAIL_ADDRESS = os.environ["GMAIL_ADDRESS"]
